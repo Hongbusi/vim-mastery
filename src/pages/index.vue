@@ -10,11 +10,13 @@
           <tbody>
             <tr>
               <td />
-              <td>光标</td>
+              <td class="pb-2 text-2xl">
+                光标
+              </td>
             </tr>
             <tr>
-              <td>
-                <span class="vim-keys">f</span>
+              <td class="vim-keys">
+                f
               </td>
               <td>左移光标</td>
             </tr>
@@ -22,10 +24,40 @@
         </table>
       </div>
       <div class="flex-1">
-        1
+        <table class="border-collapse border-spacing-x-6px border-spacing-y-3px leading-130%">
+          <tbody>
+            <tr>
+              <td />
+              <td class="pb-2 text-2xl">
+                光标
+              </td>
+            </tr>
+            <tr>
+              <td class="vim-keys">
+                f
+              </td>
+              <td>左移光标</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <div class="flex-1">
-        1
+        <table class="border-collapse border-spacing-x-6px border-spacing-y-3px leading-130%">
+          <tbody>
+            <tr>
+              <td />
+              <td class="pb-2 text-2xl">
+                光标
+              </td>
+            </tr>
+            <tr>
+              <td class="vim-keys">
+                f
+              </td>
+              <td>左移光标</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
