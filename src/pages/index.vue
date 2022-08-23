@@ -1,64 +1,26 @@
 <template>
-  <div>
-    <h3 class="text-3xl">
-      Vim Cheat Sheet
-    </h3>
+  <Header />
 
-    <div class="flex mt-10">
-      <div class="flex-1">
-        <table class="border-collapse border-spacing-x-6px border-spacing-y-3px leading-130%">
-          <tbody>
-            <tr>
-              <td />
-              <td class="pb-2 text-2xl">
-                光标
-              </td>
-            </tr>
-            <tr>
-              <td class="vim-keys">
-                f
-              </td>
-              <td>左移光标</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="flex-1">
-        <table class="border-collapse border-spacing-x-6px border-spacing-y-3px leading-130%">
-          <tbody>
-            <tr>
-              <td />
-              <td class="pb-2 text-2xl">
-                光标
-              </td>
-            </tr>
-            <tr>
-              <td class="vim-keys">
-                f
-              </td>
-              <td>左移光标</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="flex-1">
-        <table class="border-collapse border-spacing-x-6px border-spacing-y-3px leading-130%">
-          <tbody>
-            <tr>
-              <td />
-              <td class="pb-2 text-2xl">
-                光标
-              </td>
-            </tr>
-            <tr>
-              <td class="vim-keys">
-                f
-              </td>
-              <td>左移光标</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+  <div class="grid grid-cols-3 mt-10">
+    <div v-for="i in 10" :key="i" class="mb-10">
+      <table class="border-collapse border-spacing-x-6px border-spacing-y-3px leading-130%">
+        <tbody>
+          <tr>
+            <td />
+            <td class="pb-2 text-2xl">
+              光标
+            </td>
+          </tr>
+          <tr v-for="j in 20" :key="j" class="leading-32px">
+            <td class="inline-block pt-1px px-2 mr-1 w-40% leading-20px border border-[#ccc] border-b-2 border-b-[#bbb] border-rounded-3px">
+              fffffffffffffffffffffff
+            </td>
+            <td class="pr-6 w-60">
+              左移光标左移光标左移光标左移光标左移光标左移光标左移光标左移光标
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </template>
