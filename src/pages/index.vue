@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3 class="text-3xl">
-      Vim Memo
+      Vim Cheat Sheet
     </h3>
 
     <div class="flex mt-10">

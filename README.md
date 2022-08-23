@@ -1,4 +1,4 @@
-# vim-memo
+# Vim Cheat Sheet
 
 ## License
 
