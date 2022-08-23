@@ -12,11 +12,11 @@
             </td>
           </tr>
           <tr v-for="j in 20" :key="j" class="leading-32px">
-            <td class="inline-block pt-1px px-2 mr-1 w-40% leading-20px border border-[#ccc] border-b-2 border-b-[#bbb] border-rounded-3px">
-              fffffffffffffffffffffff
+            <td class="w-40%">
+              <span v-for="s in 2" :key="s" class="inline-block pt-1px px-2 mr-2 leading-20px border border-[#ccc] border-b-2 border-b-[#bbb] border-rounded-3px">f</span>
             </td>
-            <td class="pr-6 w-60">
-              左移光标左移光标左移光标左移光标左移光标左移光标左移光标左移光标
+            <td class="pr-6 w-60%">
+              左移光标左移r
             </td>
           </tr>
         </tbody>
