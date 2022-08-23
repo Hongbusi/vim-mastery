@@ -5,6 +5,7 @@ export type UserModule = (ctx: ViteSSGContext) => void
 export interface ShortcutKeys {
   keys: string[]
   description: string
+  changeKey?: boolean
 }
 
 export interface ModuleShortcutKeys {
