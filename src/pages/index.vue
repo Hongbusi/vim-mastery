@@ -20,7 +20,7 @@ import { toggleDark } from '~/composables'
             </a>
           </div>
         </div>
-        <a href="https://learn.cuixueshe.com/" class="pb-1 text-sm border-b border-gray-200/80 dark:border-gray-800/50 hover:border-gray-200" target="_blank">整理于崔大的键盘侠课程。</a>
+        <a href="https://learn.cuixueshe.com/" class="pb-1px text-sm border-b border-gray-200/80 dark:border-gray-800/50 hover:border-gray-200" target="_blank">整理于崔大的键盘侠课程。</a>
       </template>
 
       <div v-for="shortcuts in colShortcuts" :key="shortcuts.title" class="mt-4">
@@ -30,7 +30,7 @@ import { toggleDark } from '~/composables'
         <div
           v-for="(shortcut, i) in shortcuts.shortcuts"
           :key="i"
-          class="flex p-1 mt-1px text-xs rounded-1px"
+          class="relative flex p-1 mt-1px text-xs rounded-1px"
           :class="i % 2 === 0 && 'bg-gray-600/10'"
         >
           <div class="w-30%">
@@ -39,6 +39,7 @@ import { toggleDark } from '~/composables'
           <div class="w-70%">
             {{ shortcut.description }}
           </div>
+          <span v-if="shortcut.changeKey" class="absolute top-1/2 right-0 -translate-y-1/2 -translate-x-1 w-2 h-2 bg-red-500 rounded-full" />
         </div>
       </div>
     </div>
