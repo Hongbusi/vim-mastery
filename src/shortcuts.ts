@@ -1,6 +1,6 @@
 import type { ModuleShortcutKeys } from '~/types'
 
-const config: ModuleShortcutKeys[] = [
+const shortcuts: ModuleShortcutKeys[] = [
   {
     title: '移动光标',
     commands: [
@@ -32,4 +32,4 @@ const config: ModuleShortcutKeys[] = [
   }
 ]
 
-export default config
+export default shortcuts

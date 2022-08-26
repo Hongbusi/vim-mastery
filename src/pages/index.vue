@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import shortcuts from '../shortcuts'
 import { toggleDark } from '~/composables'
 </script>
 
