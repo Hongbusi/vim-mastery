@@ -2,13 +2,15 @@ import type { ViteSSGContext } from 'vite-ssg'
 
 export type UserModule = (ctx: ViteSSGContext) => void
 
-export interface ShortcutKeys {
-  keys: string[]
+export interface Shortcut {
+  key: string
   description: string
   changeKey?: boolean
 }
 
-export interface ModuleShortcutKeys {
+export interface ModuleShortcuts {
   title: string
-  commands: ShortcutKeys[]
+  shortcuts: Shortcut[]
 }
+
+export type ColModuleShortcuts = ModuleShortcuts[]
