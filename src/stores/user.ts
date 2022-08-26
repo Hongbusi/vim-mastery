@@ -1,5 +1,5 @@
 export const useUserStore = defineStore('user', () => {
-  const name = ref('vim-memo')
+  const name = ref('Vim keyboard shortcuts')
 
   function setName(value: string) {
     name.value = value

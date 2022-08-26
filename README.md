@@ -1,4 +1,4 @@
-# Vim Cheat Sheet
+# Vim keyboard shortcuts
 
 [Online Preview](https://vim.hongbusi.com)
 

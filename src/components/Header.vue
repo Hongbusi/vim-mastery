@@ -5,7 +5,7 @@ import { toggleDark } from '~/composables'
 <template>
   <header class="flex justify-between items-center">
     <h3 class="text-3xl">
-      Vim Cheat Sheet
+      Vim keyboard shortcuts
     </h3>
     <div class="flex text-xl">
       <button class="mx-2 !outline-none" title="切换深色模式" @click="toggleDark()">

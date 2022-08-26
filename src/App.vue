@@ -1,8 +1,8 @@
 <script setup lang="ts">
 useHead({
-  title: 'Vim Cheat Sheet',
+  title: 'Vim keyboard shortcuts',
   meta: [
-    { name: 'description', content: 'Vim Cheat Sheet.' }
+    { name: 'description', content: 'Vim keyboard shortcuts.' }
   ]
 })
 </script>
