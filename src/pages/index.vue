@@ -14,7 +14,7 @@ import { toggleDark } from '~/composables'
           <button class="mx-2 !outline-none" title="切换深色模式" @click="toggleDark()">
             <div i="carbon-sun dark:carbon-moon" />
           </button>
-          <a class="mx-2" rel="noreferrer" href="https://github.com/Hongbusi/vim-cheat-sheet" target="_blank" title="GitHub">
+          <a class="mx-2" rel="noreferrer" href="https://github.com/Hongbusi/vim-keyboard-shortcuts" target="_blank" title="GitHub">
             <div i-carbon-logo-github />
           </a>
         </div>
