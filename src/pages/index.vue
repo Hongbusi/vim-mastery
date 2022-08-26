@@ -6,7 +6,7 @@ import { toggleDark } from '~/composables'
 <template>
   <div class="flex border border-gray-200 dark:border-gray-800 shadow-lg">
     <div v-for="(colShortcuts, index) in allShortcuts" :key="index" class="flex-1 p-6">
-      <div v-if="index === 0" class="flex justify-between items-center py-4 text-2xl">
+      <div v-if="index === 0" class="flex justify-between items-center py-4 text-xl">
         <h2 class="font-600">
           Vim keyboard shortcuts
         </h2>
