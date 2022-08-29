@@ -26,6 +26,17 @@
       "before": ["L"],
       "after": ["g", "_"]
     }
+  ],
+
+  "vim.operatorPendingModeKeyBindings": [
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["L"],
+      "after": ["g", "_"]
+    }
   ]
 }
 ```
