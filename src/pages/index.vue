@@ -3,12 +3,12 @@ import allShortcuts from '../shortcuts'
 </script>
 
 <template>
-  <div class="flex border border-gray-200 dark:border-gray-800 shadow-lg">
+  <div class="flex border border-gray-800 shadow-lg">
     <div v-for="(colShortcuts, index) in allShortcuts" :key="index" class="flex-1 p-6">
       <template v-if="index === 0">
         <div class="flex justify-between items-center py-4 text-xl">
           <h2 class="font-600">
-            Vim Keyboard Shortcuts
+            Vim keyboard shortcuts
           </h2>
           <a class="mx-2" rel="noreferrer" href="https://github.com/Hongbusi/vim-keyboard-shortcuts" target="_blank" title="GitHub">
             <div i-carbon-logo-github />
