@@ -12,7 +12,11 @@ const shortcuts: ColModuleShortcuts[] = [
         { key: '0', description: '移动到行首' },
         { key: '^', description: '移动到本行第一个不是 blank 字符的位置（改建为 shift + h）' },
         { key: '$', description: '移动到行尾' },
-        { key: 'g_', description: '移动到本行最后一个不是 blank 字符的位置（改建为 shift + l）' }
+        { key: 'g_', description: '移动到本行最后一个不是 blank 字符的位置（改建为 shift + l）' },
+        { key: 'e', description: '移动到单词的结尾' },
+        { key: 'b', description: '移动到上一个单词的开头' },
+        { key: 'w', description: '移动到单词的开头' },
+        { key: 'ge', description: '移动到上一个单词的结尾' }
       ]
     },
     {
@@ -41,6 +45,14 @@ const shortcuts: ColModuleShortcuts[] = [
         { key: 'yy', description: '复制当前行' },
         { key: 'p', description: '粘贴' },
         { key: 'dd', description: '剪切当前行' }
+      ]
+    },
+    {
+      title: '操作',
+      shortcuts: [
+        { key: 'd', description: '删除' },
+        { key: 'c', description: '删除并进入插入模式' },
+        { key: 'y', description: '复制' }
       ]
     }
   ]
