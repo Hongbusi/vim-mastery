@@ -33,7 +33,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Hongbusi/vim-mastery' },
-      { icon: 'twitter', link: 'https://twitter/Hongbusi' },
+      { icon: 'twitter', link: 'https://twitter.com/Hongbusi' },
     ],
 
     footer: {
