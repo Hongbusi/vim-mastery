@@ -21,6 +21,9 @@ export default defineConfig({
 
     sidebar: [
       { text: '什么是 Vim？', link: '/what-is-vim' },
+      { text: 'Day1', link: '/01' },
+      { text: 'Day2', link: '/02' },
+      { text: 'Day3', link: '/03' },
     ],
 
     editLink: {
