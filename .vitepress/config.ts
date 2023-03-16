@@ -16,14 +16,14 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Guide', link: '/what-is-vim' },
+      { text: 'Guide', link: '/guide/what-is-vim', activeMatch: '/guide/' },
     ],
 
     sidebar: [
-      { text: '什么是 Vim？', link: '/what-is-vim' },
-      { text: 'Day1', link: '/01' },
-      { text: 'Day2', link: '/02' },
-      { text: 'Day3', link: '/03' },
+      { text: '什么是 Vim？', link: '/guide/what-is-vim' },
+      { text: 'Day1', link: '/guide/01' },
+      { text: 'Day2', link: '/guide/02' },
+      { text: 'Day3', link: '/guide/03' },
     ],
 
     editLink: {

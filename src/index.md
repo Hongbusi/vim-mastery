@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /what-is-vim
+      link: /guide/what-is-vim
     - theme: alt
       text: View on GitHub 
       link: https://github.com/Hongbusi/vim-mastery
