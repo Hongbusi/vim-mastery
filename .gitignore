@@ -16,6 +16,8 @@ components.d.ts
 .vite-ssg-dist
 .vite-ssg-temp
 
+.vitepress/cache
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
